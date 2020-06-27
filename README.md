@@ -6,3 +6,7 @@ The code has been written in such a way that the UIUC co-ordinate files/ those o
 The user can also input the co-ordinates directly; the last block shows the working of the same. However in this case, the user needs to ensure that the co-ordinates start from the trailing edge, move over the top surface and loops back to the trailing edge via the bottom surface (XFOIL practice). If you are uploading the .dat file the cleaning function automatically takes care of the same.
 
 The polynomial is finally provided, with a graph depicting the fit. The co-efficients have also been shown as 'features' in the code.
+
+The .dat files for a few airfoils have been added to the repository. The code has been run for the ag25.dat and bacxxx.dat files. The user can change it to use whatever file he or she wants to use.
+
+The polynomial regression has been done by using the normal equation method as it allows an easier vectorized regression which is fast. 
